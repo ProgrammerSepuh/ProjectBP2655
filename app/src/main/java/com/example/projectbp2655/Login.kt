@@ -6,9 +6,9 @@ class Login {
 
     fun loginCheck():Boolean {
         if(username.equals("Fauzan")&&password.equals("123")){
-            return true
-        }else{
             return false
+        }else{
+            return true
         }
     }
 }
